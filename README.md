@@ -23,7 +23,7 @@ Decision systems usually fail by over-trusting stale or weakly cited evidence. T
 ## Local run
 
 ```powershell
-Set-Location "C:\Users\chaus\dev\repos\evidence-ranking-engine"
+cd evidence-ranking-engine
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m app.main
